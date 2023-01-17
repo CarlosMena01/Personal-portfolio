@@ -9,7 +9,7 @@
 /*************** Left  ******************/
 
 .left-div{
-    margin: 15%;
+    margin: 12% 18% 18% 14%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -49,7 +49,10 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px 32px;
+    justify-content: center;
+    padding: 2vh;
+
+    width: 40%;
 
     /* Brand / Purple */
 
@@ -66,7 +69,10 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px 32px;
+    justify-content: center;
+    padding: 2vh;
+
+    width: 40%;
 
     /* Default / White */
     background: #FFFFFF;

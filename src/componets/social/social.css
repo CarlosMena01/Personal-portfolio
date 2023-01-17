@@ -1,0 +1,14 @@
+.social-container{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    position: fixed;
+    bottom: 0;
+    border-right: solid;
+    border-width: 1px;
+    padding: 10vh 10px 10vh 10px;
+
+}
+.icon{
+    width: 2.3vw;
+    padding: 1vw;
+}
