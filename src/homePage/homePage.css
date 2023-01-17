@@ -1,0 +1,102 @@
+/*************** General  ******************/
+.HomePage{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+/*************** Left  ******************/
+
+.left-div{
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.role{
+    background-color: rgba(140, 48, 245, 0.6);
+    color: white;
+    width: calc(60% - 10px);
+    padding: 10px 0 10px 10px;
+}
+h1{
+    width: 540px;
+    height: 98px;
+
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+
+    color: #18191F;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*   Buttons   */
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 60%;
+}
+.main-button{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+
+    /* Brand / Purple */
+
+    background: #8C30F5;
+    border-color: #8C30F5;
+    border-radius: 6px;
+    color: white;
+}
+
+.second-button{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+
+    /* Default / White */
+    background: #FFFFFF;
+    border: 4px solid #8C30F5;
+    border-radius: 6px;
+}
+
+/*************** Right  ******************/
+.right-div{
+    background-color: black;
+    position: relative;
+}
+
+.circle-mask{
+    display: flex;
+    align-items: center;
+    width: 26vw;
+    height: 26vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-img{
+    position: absolute;
+    top: 20%;
+    left: -13vw;
+    z-index: 1;
+}
+.second-img{
+    position: absolute;
+    top: 15%;
+    left: -10vw;
+}
