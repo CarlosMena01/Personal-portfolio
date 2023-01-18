@@ -30,7 +30,7 @@ function AboutPage(){
     return(
         <section className="AboutPage page" id={lenguage.navegator.item1}>
             <div className="main-section">
-                <Titles className="title"> About me </Titles>
+                <Titles> About me </Titles>
                 <div className="text">
                     <p>{lenguage.aboutPage.p1}</p>
                     <br />
@@ -41,7 +41,7 @@ function AboutPage(){
                 <div className="circle"/>
             </div>
             <div className="second-section">
-                <Titles className="title"> Skills </Titles>
+                <Titles> Skills </Titles>
                 <div className="skills">
                     {skills.map(function(skill){
                         return(<Skill icon = {skill.icon} text = {skill.name} doc = {skill.doc}></Skill>);
