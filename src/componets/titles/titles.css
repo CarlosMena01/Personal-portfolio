@@ -1,0 +1,10 @@
+.title{
+    width: 20vw;
+    height: 80px;
+    position: relative;
+    background: linear-gradient( white 60%, rgba(140, 48, 245, 0.6) 40%);
+
+    font-size: 45px;
+    line-height: 98px;
+    color: #18191F;
+}

@@ -7,10 +7,12 @@ const AppContext = React.createContext();
 function  AppProvider(props){
     /* TODO change lenguage*/ 
     const lenguage = en_US;
+    var currentSection = "Experience"; 
 
     return(
         <AppContext.Provider value={{
-            lenguage
+            lenguage, 
+            currentSection
         }}>
             {props.children}
         </AppContext.Provider>

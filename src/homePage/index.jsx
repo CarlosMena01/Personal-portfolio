@@ -7,7 +7,7 @@ import "./homePage.css"
 function HomePage(){
     const {lenguage} = React.useContext(AppContext);
     return(
-        <section className="HomePage">
+        <section className="HomePage page">
             <div className="left-div">
                 <p> {lenguage.homePage.item1} </p>
                 <h1> Carlos Mena </h1>

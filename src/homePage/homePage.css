@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: 60% 40%;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
 }
 /*************** Left  ******************/
 

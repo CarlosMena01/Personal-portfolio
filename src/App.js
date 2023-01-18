@@ -1,15 +1,19 @@
 import React from "react";
 import { Navegator } from "./componets/navegator";
-import {HomePage} from "./homePage";
 import {Social} from "./componets/social";
+import {HomePage} from "./homePage";
+import { AboutPage } from "./aboutPage";
+
+import "./App.css"
+
 
 function App() {
   return (
     <React.Fragment>
-      <Navegator/>
       <Social/>
       <HomePage/>
-      <HomePage/>
+      <Navegator/>
+      <AboutPage/>
     </React.Fragment>
   );
 }
