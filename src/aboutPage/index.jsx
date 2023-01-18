@@ -28,7 +28,7 @@ function AboutPage(){
 
     ]
     return(
-        <section className="AboutPage page">
+        <section className="AboutPage page" id={lenguage.navegator.item1}>
             <div className="main-section">
                 <Titles className="title"> About me </Titles>
                 <div className="text">

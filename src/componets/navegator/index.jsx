@@ -12,7 +12,7 @@ function Navegator(){
                 <button className={(lenguage === es_LA)? "main-btn btn":"second-btn btn"}>ES</button>
             </div>
             <div className="main-navegator">
-                {Object.values(lenguage.navegator).map(item =>( <span className={(currentSection === item)? "current-section":""}>{item}</span> ))}
+                {Object.values(lenguage.navegator).map(item =>( <a href={"#"+item} className={(currentSection === item)? "current-section":""}>{item}</a> ))}
             </div>
         </nav>
     );
