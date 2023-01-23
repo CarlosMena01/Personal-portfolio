@@ -8,11 +8,13 @@ function  AppProvider(props){
     /* TODO change lenguage*/ 
     const lenguage = en_US;
     var currentSection = "Experience"; 
+    const activeTags = ["React","FastAPI"] 
 
     return(
         <AppContext.Provider value={{
             lenguage, 
-            currentSection
+            currentSection,
+            activeTags
         }}>
             {props.children}
         </AppContext.Provider>

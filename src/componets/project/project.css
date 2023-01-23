@@ -1,0 +1,41 @@
+.project{
+    width: 20vw;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    height: 30vw;
+    border: solid;
+}
+
+.image{
+    overflow: hidden;
+}
+
+.image img{
+    width: 20vw;
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.description h2{
+    font-size: 30px;
+}
+
+.tags{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tag, .tag-active{
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px;
+}
