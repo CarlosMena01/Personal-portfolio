@@ -17,6 +17,9 @@ const en_US = {
         p1: "Hi! I’m Carlos Mena, a highly motivated and passionate student of physics engineering and computer science from Colombia with a strong interest in technology and a desire to learn and develop skills in emerging areas.",
         p2: "I have experience in programming languages such as Python, Java, and C, and a solid understanding of fundamental principles of physics and mathematics.",
         p3: "I am seeking opportunities to apply my knowledge and skills to solve real-world problems in a collaborative work environment, with the goal of starting a career as a backend developer."
+    },
+    projectsPage:{
+        prj1: "A copy of instagram, but only can post pictures of cats, i used my own neuronal network for this :D",
     }
 }
 

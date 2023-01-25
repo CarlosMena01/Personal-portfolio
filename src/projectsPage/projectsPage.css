@@ -3,5 +3,12 @@
 }
 
 .projects{
-    margin: 1% 0 0 10%; 
+    margin: 1% 5% 0 10%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plus{
+    width: 6vw;
 }

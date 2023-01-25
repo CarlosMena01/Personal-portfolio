@@ -2,14 +2,20 @@ import React from "react";
 import { AppContext } from "../data/context";
 import { Titles } from "../componets/titles";
 import { Project } from "../componets/project";
+
+import plus from "../assets/plus.svg"
 import profile from "../assets/profile_img.png"
+
 import "./projectsPage.css"
 
 function ProjectsPage(){
     const {lenguage} = React.useContext(AppContext);
 
     const projects = [
-        {name: "React" , description: "No sé qué hacer", imagen: profile, tags: ["React", "FastAPI", "Web","React", "FastAPI", "Web"] }
+        {name: "React" , description: lenguage.projectsPage.prj1, imagen: profile, tags: ["React", "FastAPI", "Web","React", "FastAPI", "Web"] },
+        {name: "React" , description: lenguage.projectsPage.prj1, imagen: profile, tags: ["React", "FastAPI", "Web","React", "FastAPI", "Web"] },
+        {name: "React" , description: lenguage.projectsPage.prj1, imagen: profile, tags: ["React", "FastAPI", "Web","React", "FastAPI", "Web"] },
+        {name: "React" , description: lenguage.projectsPage.prj1, imagen: profile, tags: ["React", "FastAPI", "Web","React", "FastAPI", "Web"] },
     ]
 
     return(
@@ -18,7 +24,7 @@ function ProjectsPage(){
                 <Titles className= "title"> Projects</Titles>
             </div>
             <div className="projects">
-            {projects.map(function(project){
+            {projects.slice(0,3).map(function(project){
                         return(
                             <Project 
                             name = {project.name}
@@ -29,6 +35,10 @@ function ProjectsPage(){
                             ></Project>
                         );
                     })}
+            {
+                (projects.length > 3)?<img  className="plus" src={plus} alt="Más proyectos" />: <span></span>
+            }
+            
 
             </div>
         </section>

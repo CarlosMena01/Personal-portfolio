@@ -12,6 +12,10 @@ function Project(props){
             <div className="description">
                 <h2>{props.name}</h2>
                 <p>{props.description}</p>
+                <div className="buttons-view">
+                    <a href={props.demo} className="demo">Demo</a>
+                    <a href={props.repo} className="repo">Repo</a>
+                </div>
                 <div className="tags">
                     {props.tags.map(function(tag){
                         return( <span className={"tag" + ((activeTags.includes(tag))? "-active":"")}>{tag}</span> );
