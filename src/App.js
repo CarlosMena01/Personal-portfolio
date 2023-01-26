@@ -7,6 +7,7 @@ import { ProjectsPage } from "./projectsPage";
 import { ExperiencePage } from "./experiencePage";
 import { EducationPage } from "./educationPage";
 import { ContactPage } from "./contactPage";
+import { Footer } from "./componets/footer";
 
 import "./App.css"
 
@@ -22,6 +23,7 @@ function App() {
       <ExperiencePage/>
       <EducationPage/>
       <ContactPage/>
+      <Footer/>
     </React.Fragment>
   );
 }

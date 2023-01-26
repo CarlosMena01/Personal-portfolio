@@ -19,6 +19,7 @@ const en_US = {
         p3: "I am seeking opportunities to apply my knowledge and skills to solve real-world problems in a collaborative work environment, with the goal of starting a career as a backend developer."
     },
     projectsPage:{
+        title: "Projects",
         prj1: "A copy of instagram, but only can post pictures of cats, i used my own neuronal network for this :D",
     },
     experiencePage:{

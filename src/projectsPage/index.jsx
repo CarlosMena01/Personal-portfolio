@@ -21,7 +21,7 @@ function ProjectsPage(){
     return(
         <section className="projectsPage page" id={lenguage.navegator.item2}>
             <div className="header">
-                <Titles className= "title"> Projects</Titles>
+                <Titles className= "title"> {lenguage.projectsPage.title}</Titles>
             </div>
             <div className="projects">
             {projects.slice(0,3).map(function(project){
