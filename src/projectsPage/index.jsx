@@ -27,6 +27,7 @@ function ProjectsPage(){
             {projects.slice(0,3).map(function(project){
                         return(
                             <Project 
+                            key = {project.name}
                             name = {project.name}
                             description = {project.description}
                             imagen = {project.imagen}

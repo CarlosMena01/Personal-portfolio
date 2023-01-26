@@ -18,7 +18,7 @@ function Project(props){
                 </div>
                 <div className="tags">
                     {props.tags.map(function(tag){
-                        return( <span className={"tag" + ((activeTags.includes(tag))? "-active":"")}>{tag}</span> );
+                        return( <span key={tag} className={"tag" + ((activeTags.includes(tag))? "-active":"")}>{tag}</span> );
                     })}
                 </div>
             </div>

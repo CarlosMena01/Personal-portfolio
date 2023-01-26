@@ -23,6 +23,7 @@ function EducationPage(){
             <div className="main-education">
                 {lenguage.educationPage.edu.map(function(edu){
                     return( <Education 
+                        key = {edu[0]}
                         title={edu[0]}
                         institution = {edu[1]}
                         description = {edu[2]}

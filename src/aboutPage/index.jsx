@@ -44,7 +44,7 @@ function AboutPage(){
                 <Titles> Skills </Titles>
                 <div className="skills">
                     {skills.map(function(skill){
-                        return(<Skill icon = {skill.icon} text = {skill.name} doc = {skill.doc}></Skill>);
+                        return(<Skill key={skill.name} icon = {skill.icon} text = {skill.name} doc = {skill.doc}></Skill>);
                     })}
                 </div>
             </div>
