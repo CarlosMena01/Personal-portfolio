@@ -1,0 +1,57 @@
+.container h2{
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.container h2 em{
+    color: var(--other-color);
+}
+
+.main-education{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-education li{
+    line-height: 25px;
+}
+
+.courses{
+    width: 35vw;
+    height: 45vh;
+    padding-left: 30px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: solid;
+    border-radius: 50px;
+    border-color: var(--other-color);
+}
+.courses h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: 600;
+}
+.courses h3{
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.courses h3 em{
+    color: var(--other-color);
+}

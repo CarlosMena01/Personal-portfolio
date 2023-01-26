@@ -38,7 +38,21 @@ const en_US = {
         data:["Data analyst assistent","UnalMed", "from Jul/2022 to Dec/2022"],
         exp: ["Decgasj asss impson sdas csSupporting hardward and firmware development.", "Decgasj asss impson sdas csSupporting hardward and firmware development.", "Soy lo máximo"]
         }
-}
+    },
+    educationPage:{
+        title: "Education",
+        course: "Courses",
+        edu: [
+            ["Computer Science", "UNAL", "Supporting hardward and firmware development lorep ummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."],
+            ["Physics Engineering", "UNAL", "Supporting hardward and firmware development lorep ummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."],
+            ["Technical high school in systems", "SENA", "Supporting hardward and firmware development lorep ummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."],
+        ],
+        courses: [
+            ["FastAPI","Platzi"],
+            ["Neuronal Networks and Deeplearning","Deeplearning.IA"],
+            ["Computer vision basics","University at Buffalo"]
+        ]
+    },
 }
 
 const es_LA = {
