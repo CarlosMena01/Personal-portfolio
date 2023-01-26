@@ -1,0 +1,46 @@
+.experincePage{
+    position: relative;
+}
+
+.experincePage .title{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container{
+    position: absolute;
+    top: 35vh;
+    left: 15vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
+}
+
+.buttons-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.buttons-exp > button{
+    font-size: 20px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+
+    border: none;
+    background: none;
+
+    padding-left: 20px;
+    height: 40px;
+
+    transition: all 0.2s;
+}
+
+.buttons-exp .active{
+    background-color: var(--second-color);
+    color: white;
+}

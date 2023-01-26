@@ -20,7 +20,25 @@ const en_US = {
     },
     projectsPage:{
         prj1: "A copy of instagram, but only can post pictures of cats, i used my own neuronal network for this :D",
-    }
+    },
+    experiencePage:{
+        title: "Experience",
+        btn1: "Engineer intern",
+        btn2: "Academic monitor",
+        btn3: "Data analyst assistent",
+        table1:{
+        data:["Engineer intern","TeCrea", "from Jul/2022 to Dec/2022"],
+        exp: ["Decgasj asss impson sdas csSupporting hardward and firmware development.", "Decgasj asss impson sdas csSupporting hardward and firmware development.", "Soy lo máximo"]
+        },
+        table2:{
+        data:["Academic monitor","UnalMed", "from Jul/2022 to Dec/2022"],
+        exp: ["Decgasj asss impson sdas csSupporting hardward and firmware development.", "Decgasj asss impson sdas csSupporting hardward and firmware development.", "Soy lo máximo"]
+        },
+        table3:{
+        data:["Data analyst assistent","UnalMed", "from Jul/2022 to Dec/2022"],
+        exp: ["Decgasj asss impson sdas csSupporting hardward and firmware development.", "Decgasj asss impson sdas csSupporting hardward and firmware development.", "Soy lo máximo"]
+        }
+}
 }
 
 const es_LA = {

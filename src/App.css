@@ -1,6 +1,7 @@
 :root{
     --main-color: #7700FF;
     --second-color: rgba(140, 48, 245, 0.6);
+    --other-color: #8C30F5;
 }
 .page {
     font-family: 'Roboto', sans-serif;
