@@ -53,6 +53,10 @@ const en_US = {
             ["Computer vision basics","University at Buffalo"]
         ]
     },
+    contactPage:{
+        title: "Get in touch",
+        description: "I’m currently looking for new opportunities, my inbox is always open. Whether you have a question, if you want hire me or just want to say hi.",
+    }
 }
 
 const es_LA = {

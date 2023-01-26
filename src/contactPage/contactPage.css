@@ -1,0 +1,19 @@
+.contactPage{
+    position: relative;
+}
+
+.contactPage .title{
+    margin: 40px;
+}
+
+.main-content{
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    width: 30vw;
+    line-height: 20px;
+}
+
+.main-content em{
+    color: var(--other-color);
+}

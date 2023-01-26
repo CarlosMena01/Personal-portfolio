@@ -6,6 +6,7 @@ import { AboutPage } from "./aboutPage";
 import { ProjectsPage } from "./projectsPage";
 import { ExperiencePage } from "./experiencePage";
 import { EducationPage } from "./educationPage";
+import { ContactPage } from "./contactPage";
 
 import "./App.css"
 
@@ -20,6 +21,7 @@ function App() {
       <ProjectsPage/>
       <ExperiencePage/>
       <EducationPage/>
+      <ContactPage/>
     </React.Fragment>
   );
 }
