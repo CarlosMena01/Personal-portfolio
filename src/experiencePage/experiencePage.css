@@ -9,8 +9,8 @@
 }
 .container{
     position: absolute;
-    top: 35vh;
-    left: 15vw;
+    top: 30vh;
+    left: 12vw;
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 50px;
@@ -37,7 +37,7 @@
     padding-left: 20px;
     height: 40px;
 
-    transition: all 0.2s;
+    transition: all 0.25s;
 }
 
 .buttons-exp .active{
