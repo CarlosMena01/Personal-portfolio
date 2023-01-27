@@ -1,37 +1,34 @@
+/*      Desktop     */
+@media screen and (min-width: 1024px) {
 /*************** General  ******************/
 .HomePage{
-    height: 100vh;
     display: grid;
     grid-template-columns: 60% 40%;
     overflow: hidden;
+    height: 100vh;
 }
 /*************** Left  ******************/
-
 .left-div{
     margin: 12% 18% 18% 14%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5%;
 }
 .role{
     background-color: rgba(140, 48, 245, 0.6);
     color: white;
-    width: calc(60% - 10px);
+    width: calc(28vw - 10px);
     padding: 10px 0 10px 10px;
 }
 h1{
-    width: 540px;
-    height: 98px;
+    width: 54vw;
+    height: 15vh;
 
     font-weight: 800;
-    font-size: 72px;
-    line-height: 98px;
+    font-size: 10vh;
+    line-height: 15vh;
 
     color: #18191F;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 /*   Buttons   */
@@ -40,43 +37,40 @@ h1{
     flex-direction: row;
     justify-content: space-between;
 
-    width: 60%;
+    width: 70%;
 }
 .main-button{
-    /* Auto layout */
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
     padding: 2vh;
-
     width: 40%;
 
     /* Brand / Purple */
 
-    background: #8C30F5;
-    border-color: #8C30F5;
-    border-radius: 6px;
+    background: var(--other-color);
+    border-color: var(--other-color);
+    border-radius: 1.5vh;
     color: white;
 }
 
 .second-button{
     box-sizing: border-box;
 
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2vh;
+    padding: 1vw;
 
     width: 40%;
 
-    /* Default / White */
-    background: #FFFFFF;
-    border: 4px solid #8C30F5;
-    border-radius: 6px;
+    background: white;
+    border: solid #8C30F5;
+    border-radius: 1.5vh;
 }
 
 /*************** Right  ******************/
@@ -100,8 +94,202 @@ h1{
     left: -13vw;
     z-index: 1;
 }
+.main-img img{
+    width: 100%;
+}
 .second-img{
     position: absolute;
     top: 15%;
     left: -10vw;
+}    
+}
+
+/*      Tablet     */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+/*************** General  ******************/
+.HomePage{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    overflow: hidden;
+    height: 50vh;
+    width: 100vw;
+}
+/*************** Left  ******************/
+.left-div{
+    margin: 12% 18% 18% 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.role{
+    background-color: rgba(140, 48, 245, 0.6);
+    color: white;
+    width: calc(28vw - 10px);
+    padding: 10px 0 10px 10px;
+}
+h1{
+    width: 54vw;
+    height: 5vh;
+
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 5vh;
+
+    color: #18191F;
+}
+
+/*   Buttons   */
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 70%;
+}
+.main-button{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1vh 0 1vh 0;
+    width: 45%;
+
+    /* Brand / Purple */
+
+    background: var(--other-color);
+    border-color: var(--other-color);
+    border-radius: 1.5vh;
+    color: white;
+}
+
+.second-button{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:  1vh 0 1vh 0;
+
+    width: 45%;
+
+    background: white;
+    border: solid var(--other-color);
+    border-radius: 1.5vh;
+}
+
+/*************** Right  ******************/
+.right-div{
+    background-color: black;
+    position: relative;
+}
+
+.circle-mask{
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-img{
+    position: absolute;
+    top: 20%;
+    left: -13vw;
+    z-index: 1;
+}
+.main-img img{
+    width: 100%;
+}
+.second-img{
+    position: absolute;
+    top: 15%;
+    left: -10vw;
+}    
+}
+
+/*      Celphone     */
+@media screen and (max-width: 767px) {
+/*************** General  ******************/
+.HomePage{
+    display: grid;
+    grid-template-columns: 100%;
+    overflow: hidden;
+    height: 50vh;
+    width: 100vw;
+}
+/*************** Left  ******************/
+.left-div{
+    margin: 12% 18% 18% 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.role{
+    background-color: rgba(140, 48, 245, 0.6);
+    color: white;
+    width: calc(28vw - 10px);
+    padding: 10px 0 10px 10px;
+}
+h1{
+    width: 54vw;
+    height: 5vh;
+
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 5vh;
+
+    color: #18191F;
+}
+
+/*   Buttons   */
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 70%;
+}
+.main-button{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1vh 0 1vh 0;
+    width: 45%;
+
+    /* Brand / Purple */
+
+    background: var(--other-color);
+    border-color: var(--other-color);
+    border-radius: 1.5vh;
+    color: white;
+}
+
+.second-button{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:  1vh 0 1vh 0;
+
+    width: 45%;
+
+    background: white;
+    border: solid var(--other-color);
+    border-radius: 1.5vh;
+}
+
+/*************** Right  ******************/
+.right-div{
+    display: none;
+}
+ 
 }
