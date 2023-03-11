@@ -13,6 +13,8 @@
 .text{
     margin: 5vh 0;
     width: 80%;
+    text-align: justify;
+    line-height: 1.3;
 }
 
 .skills{
