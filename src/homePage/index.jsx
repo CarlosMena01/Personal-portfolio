@@ -14,7 +14,8 @@ function HomePage(){
                 <p className="role"> { lenguage.homePage.item2}</p>
                 <div className="buttons-container">
                     <button className="main-button">{ lenguage.homePage.button1}</button>
-                    <button className="second-button">{ lenguage.homePage.button2}</button>
+                    <button onClick={function(){window.location.href="#" + lenguage.navegator.item5}} className="second-button">{ lenguage.homePage.button2}</button>
+                    
                 </div>
             </div>
             <div className="right-div">
