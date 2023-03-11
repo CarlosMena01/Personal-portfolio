@@ -30,7 +30,7 @@ function AboutPage(){
     return(
         <section className="AboutPage page" id={lenguage.navegator.item1}>
             <div className="main-section">
-                <Titles> About me </Titles>
+                <Titles> {lenguage.aboutPage.title} </Titles>
                 <div className="text">
                     <p>{lenguage.aboutPage.p1}</p>
                     <br />
