@@ -1,6 +1,7 @@
 import React from "react";
 import { Navegator } from "./componets/navegator";
 import { Social } from "./componets/social";
+import { ScrollToTopButton } from "./componets/upButton";
 import { HomePage } from "./homePage";
 import { AboutPage } from "./aboutPage";
 import { ProjectsPage } from "./projectsPage";
@@ -24,6 +25,7 @@ function App() {
       <EducationPage/>
       <ContactPage/>
       <Footer/>
+      <ScrollToTopButton/>
     </React.Fragment>
   );
 }
