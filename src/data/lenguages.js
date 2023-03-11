@@ -20,7 +20,9 @@ const en_US = {
     },
     projectsPage:{
         title: "Projects",
-        prj1: "A copy of instagram, but only can post pictures of cats, i used my own neuronal network for this :D",
+        prj1: "The web project consists of a text encryption and decryption tool and has animations.",
+        prj2: "My own personal website that resume part of my experience and my professional goals.",
+        prj3: "Application of pathfinding algorithms and creation of mazes in Unity.",
     },
     experiencePage:{
         title: "Experience",
@@ -49,6 +51,7 @@ const en_US = {
             ["Technical high school in systems", "SENA", "Systems technician with emphasis on preventive and corrective maintenance of software and hardware"],
         ],
         courses: [
+            ["Web basic programming","Oracle-Alura"],
             ["FastAPI","Platzi"],
             ["Neuronal Networks and Deeplearning","Deeplearning.IA"],
             ["Computer vision basics","University at Buffalo"]
@@ -82,7 +85,10 @@ const es_LA = {
     },
     projectsPage:{
         title: "Proyectos",
-        prj1: "Una copia de Instagram, pero solo se pueden publicar fotos de gatos, utilicé mi propia red neuronal para esto :D",
+        prj1: "El proyecto web consiste en una herramienta de encriptación y desencriptación de texto y cuenta con animaciones.",
+        prj2: "Mi propio portafolio personal donde se resume una parte de mi experiencia y mis objetivos.",
+        prj3: "Aplicación de algoritmos de pathfinding y creación de laberintos en Unity.",
+
     },
     experiencePage:{
         title: "Experiencia",
@@ -111,6 +117,7 @@ const es_LA = {
         ["Bachillerato técnico en sistemas", "SENA", "Técnico en sistemas con énfasis en el mantenimiento preventivo y correctivo de software y hardware"],
         ],
         courses: [
+        ["Principiante en programación","Oracle-Alura"],
         ["FastAPI","Platzi"],
         ["Redes neuronales y aprendizaje profundo","Deeplearning.IA"],
         ["Fundamentos de visión por computadora","Universidad de Buffalo"]

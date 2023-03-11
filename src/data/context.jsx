@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { es_LA, en_US } from "./lenguages";
+import { es_LA } from "./lenguages";
 
 
 const AppContext = React.createContext();

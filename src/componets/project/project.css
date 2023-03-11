@@ -24,11 +24,16 @@
 }
 
 .image{
+    width: 100%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image img{
-    width: 20vw;
+    /* width: 20vw; */
+    height: 100%;
 }
 .description{
     display: flex;

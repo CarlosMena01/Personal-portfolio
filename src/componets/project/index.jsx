@@ -13,8 +13,8 @@ function Project(props){
                 <h2>{props.name}</h2>
                 <p>{props.description}</p>
                 <div className="buttons-view">
-                    <a href={props.demo} className="demo">Demo</a>
-                    <a href={props.repo} className="repo">Repo</a>
+                    <a href={props.demo} target="_blank" className="demo">Demo</a>
+                    <a href={props.repo} target="_blank" className="repo">Repo</a>
                 </div>
                 <div className="tags">
                     {props.tags.map(function(tag){
