@@ -34,11 +34,11 @@ const en_US = {
         exp: ["Support for the electronics and IoT projects in varius sector of the industry.", "Develop firmware projects with different MCUs.", "Minimize errors and noise in circuit designs."]
         },
         table2:{
-        data:["Academic monitor","UnalMed", "from Jul/2022 to Dec/2022"],
+        data:["Academic monitor","UnalMed", "from Jun/2021 to Dec/2022"],
         exp: ["Support for the teaching tasks in the course of fundamentals of circuits.", "Preparation laboratory practices and help in student projects.", "Develop learn strategies for the students"]
         },
         table3:{
-        data:["Data analyst assistent","UnalMed", "from Jul/2022 to Dec/2022"],
+        data:["Data analyst assistent","UnalMed", "from Jul/2021 to Sep/2021"],
         exp: ["Ensure optimal collection of contamination data.", "Analyze the accuracy of machine learning models to predict the data.", "Create grapical systems to visualize the data"]
         }
     },
@@ -96,15 +96,15 @@ const es_LA = {
         btn2: "Monitor académico",
         btn3: "Asistente de análisis de datos",
         table1:{
-            data:["Prácticas de ingeniería","TeCrea", "de julio/2022 a diciembre/2022"],
+            data:["Prácticas de ingeniería","TeCrea", "de Jul/2022 a Dic/2022"],
             exp: ["Apoyo para proyectos electrónicos e IoT en diversos sectores de la industria.", "Desarrollo de proyectos de firmware con diferentes MCUs.", "Minimizar errores y ruido en diseños de circuitos."]
         },
         table2:{
-            data:["Monitor académico","UnalMed", "de julio/2022 a diciembre/2022"],
+            data:["Monitor académico","UnalMed", "de Jun/2021 a Dic/2022"],
             exp: ["Apoyo para las tareas de enseñanza en el curso de fundamentos de circuitos.", "Preparación de prácticas de laboratorio y ayuda en proyectos de estudiantes.", "Desarrollar estrategias de aprendizaje para los estudiantes."]
         },
         table3:{
-            data:["Asistente de análisis de datos","UnalMed", "de julio/2022 a diciembre/2022"],
+            data:["Asistente de análisis de datos","UnalMed", "de Jul/2021 a Sep/2021"],
             exp: ["Asegurar la recolección óptima de datos de contaminación.", "Analizar la precisión de los modelos de aprendizaje automático para predecir los datos.", "Crear sistemas gráficos para visualizar los datos."]
         }
     }, 
