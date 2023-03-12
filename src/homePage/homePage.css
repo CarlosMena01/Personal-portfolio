@@ -1,5 +1,3 @@
-/*      Desktop     */
-@media screen and (min-width: 1024px) {
 /*************** General  ******************/
 .HomePage{
     display: grid;
@@ -14,6 +12,25 @@
     flex-direction: column;
     gap: 5%;
 }
+.typing {
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 0.15em solid var(--main-color);
+    width: 0;
+    animation: typing 6s steps(20, end) infinite, blink-caret 0.5s step-end infinite;
+    /* Añade "forwards" para que la animación se detenga en su estado final */
+  }
+  
+  @keyframes typing {
+    from,to { width: 0; }
+    50% { width: 50%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color:  var(--main-color); }
+  }
 .role{
     background-color: rgba(140, 48, 245, 0.6);
     color: white;
@@ -102,194 +119,3 @@ h1{
     top: 15%;
     left: -10vw;
 }    
-}
-
-/*      Tablet     */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-/*************** General  ******************/
-.HomePage{
-    display: grid;
-    grid-template-columns: 60% 40%;
-    overflow: hidden;
-    height: 50vh;
-    width: 100vw;
-}
-/*************** Left  ******************/
-.left-div{
-    margin: 12% 18% 18% 14%;
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
-}
-.role{
-    background-color: rgba(140, 48, 245, 0.6);
-    color: white;
-    width: calc(28vw - 10px);
-    padding: 10px 0 10px 10px;
-}
-h1{
-    width: 54vw;
-    height: 5vh;
-
-    font-weight: 800;
-    font-size: 5vw;
-    line-height: 5vh;
-
-    color: #18191F;
-}
-
-/*   Buttons   */
-.buttons-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    width: 70%;
-}
-.main-button{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-    padding: 1vh 0 1vh 0;
-    width: 45%;
-
-    /* Brand / Purple */
-
-    background: var(--other-color);
-    border-color: var(--other-color);
-    border-radius: 1.5vh;
-    color: white;
-}
-
-.second-button{
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding:  1vh 0 1vh 0;
-
-    width: 45%;
-
-    background: white;
-    border: solid var(--other-color);
-    border-radius: 1.5vh;
-}
-
-/*************** Right  ******************/
-.right-div{
-    background-color: black;
-    position: relative;
-}
-
-.circle-mask{
-    display: flex;
-    align-items: center;
-    width: 35vw;
-    height: 35vw;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.main-img{
-    position: absolute;
-    top: 20%;
-    left: -13vw;
-    z-index: 1;
-}
-.main-img img{
-    width: 100%;
-}
-.second-img{
-    position: absolute;
-    top: 15%;
-    left: -10vw;
-}    
-}
-
-/*      Celphone     */
-@media screen and (max-width: 767px) {
-/*************** General  ******************/
-.HomePage{
-    display: grid;
-    grid-template-columns: 100%;
-    overflow: hidden;
-    height: 50vh;
-    width: 100vw;
-}
-/*************** Left  ******************/
-.left-div{
-    margin: 12% 18% 18% 14%;
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
-}
-.role{
-    background-color: rgba(140, 48, 245, 0.6);
-    color: white;
-    width: calc(28vw - 10px);
-    padding: 10px 0 10px 10px;
-}
-h1{
-    width: 54vw;
-    height: 5vh;
-
-    font-weight: 800;
-    font-size: 5vw;
-    line-height: 5vh;
-
-    color: #18191F;
-}
-
-/*   Buttons   */
-.buttons-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    width: 70%;
-}
-.main-button{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-    padding: 1vh 0 1vh 0;
-    width: 45%;
-
-    /* Brand / Purple */
-
-    background: var(--other-color);
-    border-color: var(--other-color);
-    border-radius: 1.5vh;
-    color: white;
-}
-
-.second-button{
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding:  1vh 0 1vh 0;
-
-    width: 45%;
-
-    background: white;
-    border: solid var(--other-color);
-    border-radius: 1.5vh;
-}
-
-/*************** Right  ******************/
-.right-div{
-    display: none;
-}
- 
-}

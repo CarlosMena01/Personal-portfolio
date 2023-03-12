@@ -26,7 +26,11 @@ function HomePage(){
             <div className="left-div">
                 <p> {lenguage.homePage.item1} </p>
                 <h1> Carlos Mena </h1>
-                <p className="role"> { lenguage.homePage.item2}</p>
+                <div className="role">
+                    <div className="typing">
+                     {lenguage.homePage.item2}
+                    </div>
+                </div>
                 <div className="buttons-container">
                     <button onClick={downloadCV} className="main-button">{ lenguage.homePage.button1}</button>
                     <button onClick={function(){window.location.href="#" + lenguage.navegator.item5}} className="second-button">{ lenguage.homePage.button2}</button>
