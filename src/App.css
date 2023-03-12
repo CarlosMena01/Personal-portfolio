@@ -3,17 +3,28 @@
     --second-color: rgba(140, 48, 245, 0.6);
     --other-color: #8C30F5;
 }
+
 .page {
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  animation: none;
+}
+
+/* @keyframes appear {
+  from {
     opacity: 0;
     transform: translateX(-100px);
-    transition: all 0.5s ease-in-out;
-}
-.page.visible{
-  opacity: 1;
-  transform: translateX(0);
-}
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} */
+
+/* .page.visible{
+  animation: appear 0.5s ease-in forwards;
+} */
+
 .HomePage{
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
