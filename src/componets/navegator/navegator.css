@@ -25,6 +25,7 @@
     text-decoration:none;
     padding: 0 20px 0 20px;
     color: white;
+    transition: all 0.3s ease-out;
 }
     
 .current-section{

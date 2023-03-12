@@ -7,7 +7,7 @@ const AppContext = React.createContext();
 function  AppProvider(props){
     /* TODO change lenguage*/ 
     const [lenguage, useLenguage] = useState(es_LA);
-    var currentSection = "Experience"; 
+    const [currentSection, setCurrentSection] = useState("Experience"); 
     const activeTags = ["React","FastAPI"] 
 
     return(
@@ -15,6 +15,7 @@ function  AppProvider(props){
             lenguage, 
             useLenguage,
             currentSection,
+            setCurrentSection,
             activeTags
         }}>
             {props.children}
