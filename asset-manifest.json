@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Personal-portfolio/static/css/main.08dbb7eb.css",
+    "main.js": "/Personal-portfolio/static/js/main.bc8339d7.js",
+    "static/media/project_portfolio.png": "/Personal-portfolio/static/media/project_portfolio.acaedb06b514a59799c8.png",
+    "static/media/profile_img.png": "/Personal-portfolio/static/media/profile_img.672bf352941f76e79098.png",
+    "static/media/CV_Spanish.pdf": "/Personal-portfolio/static/media/CV_Spanish.8405266035b2396eaf36.pdf",
+    "static/media/project_UNITY.png": "/Personal-portfolio/static/media/project_UNITY.b54499f646ebdb6d8c39.png",
+    "static/media/project_ONE.png": "/Personal-portfolio/static/media/project_ONE.892de916ac01bb0d4b6b.png",
+    "static/media/CV_English.pdf": "/Personal-portfolio/static/media/CV_English.cc58a80e801928594853.pdf",
+    "static/media/linux.svg": "/Personal-portfolio/static/media/linux.a090eb173322d8a0cdf62444adf9cb85.svg",
+    "static/media/pattern.svg": "/Personal-portfolio/static/media/pattern.af2fbf76c68567e8f6662dd40aaf0f4e.svg",
+    "static/media/fastAPI.svg": "/Personal-portfolio/static/media/fastAPI.b67aba2a337963e8840010d8c56f7227.svg",
+    "static/media/mySQL.svg": "/Personal-portfolio/static/media/mySQL.ebf5eeaef302d497971c5bbd898566e4.svg",
+    "static/media/SQLAlchemy.svg": "/Personal-portfolio/static/media/SQLAlchemy.d55900ec9662244d40b7e70f6f385bcc.svg",
+    "static/media/react.svg": "/Personal-portfolio/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/up-arrow.svg": "/Personal-portfolio/static/media/up-arrow.b343499b56c8bee7f0d182a63baddcc2.svg",
+    "static/media/github.svg": "/Personal-portfolio/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
+    "static/media/git.svg": "/Personal-portfolio/static/media/git.3ef9650f827a2778dbb89a8eca4e76a0.svg",
+    "index.html": "/Personal-portfolio/index.html",
+    "static/media/plus.svg": "/Personal-portfolio/static/media/plus.bd6904f5117c703f70572cf06eb7a887.svg",
+    "static/media/linkedin-in.svg": "/Personal-portfolio/static/media/linkedin-in.887ba25dd002b7c7844a48f8c4407750.svg",
+    "static/media/unity.svg": "/Personal-portfolio/static/media/unity.8a9f1de6da9859450514b2c26da60a2b.svg",
+    "main.08dbb7eb.css.map": "/Personal-portfolio/static/css/main.08dbb7eb.css.map",
+    "main.bc8339d7.js.map": "/Personal-portfolio/static/js/main.bc8339d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08dbb7eb.css",
+    "static/js/main.bc8339d7.js"
+  ]
+}
