@@ -72,6 +72,8 @@ h1{
     border-color: var(--other-color);
     border-radius: 1.5vh;
     color: white;
+
+    cursor: pointer;
 }
 
 .second-button{
@@ -88,6 +90,8 @@ h1{
     background: white;
     border: solid #8C30F5;
     border-radius: 1.5vh;
+
+    cursor: pointer;
 }
 
 /*************** Right  ******************/
