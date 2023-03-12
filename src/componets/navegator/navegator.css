@@ -26,13 +26,15 @@
     padding: 0 20px 0 20px;
     color: white;
     transition: all 0.3s ease-out;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
     
 .current-section{
     background-color: #7700FF;
-    height: 100%;
-    display: flex;
-    align-items: center;
+
 }
 
 .buttons{
