@@ -22,7 +22,7 @@ function HomePage(){
         
     }
     return(
-        <section className="HomePage page">
+        <section className="HomePage">
             <div className="left-div">
                 <p> {lenguage.homePage.item1} </p>
                 <h1> Carlos Mena </h1>

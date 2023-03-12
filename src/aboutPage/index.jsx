@@ -14,7 +14,7 @@ import unity from "../assets/unity.svg"
 import "./aboutPage.css"
 
 function AboutPage(){
-    const {lenguage} = React.useContext(AppContext);
+    const {lenguage,  currentSection} = React.useContext(AppContext);
 
     /* Skills list */
     const skills = [
@@ -28,7 +28,7 @@ function AboutPage(){
 
     ]
     return(
-        <section className="AboutPage page" id={lenguage.navegator.item1}>
+        <section className={"AboutPage page " + ((currentSection === lenguage.navegator.item1)? "visible":"")} id={lenguage.navegator.item1}>
             <div className="main-section">
                 <Titles> {lenguage.aboutPage.title} </Titles>
                 <div className="text">

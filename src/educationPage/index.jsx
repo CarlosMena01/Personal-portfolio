@@ -5,7 +5,7 @@ import "./educationPage.css"
 
 
 function EducationPage(){
-    const {lenguage} = React.useContext(AppContext);
+    const {lenguage, currentSection} = React.useContext(AppContext);
 
     function Education(props){
         return(
@@ -17,7 +17,7 @@ function EducationPage(){
     }
 
     return(
-    <section className="experincePage page" id={lenguage.navegator.item4}>
+    <section className={"experincePage page "+ ((currentSection === lenguage.navegator.item4)? "visible":"")} id={lenguage.navegator.item4}>
         <Titles>{lenguage.educationPage.title}</Titles>
         <div className="container">
             <div className="main-education">

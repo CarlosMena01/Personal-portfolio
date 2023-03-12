@@ -7,7 +7,7 @@ import "./experiencePage.css"
 function ExperiencePage() {
 
     const [buttonActive,useButtonActive] = React.useState("btn1");
-    const {lenguage} = React.useContext(AppContext);
+    const {lenguage, currentSection} = React.useContext(AppContext);
 
     const [dataExperience, useDataExperience] = React.useState(lenguage.experiencePage.table1);
     function buttonToData(button) {
@@ -30,7 +30,7 @@ function ExperiencePage() {
         
     }
     return(
-    <section className="experincePage page" id={lenguage.navegator.item3}>
+    <section className={"experincePage page "+ ((currentSection === lenguage.navegator.item3)? "visible":"")} id={lenguage.navegator.item3}>
         <Titles>{lenguage.experiencePage.title}</Titles>
         <div className="container">
             <div className="buttons-exp">

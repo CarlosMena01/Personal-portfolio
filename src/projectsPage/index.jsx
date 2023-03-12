@@ -11,7 +11,7 @@ import imgUnity from "../assets/project_UNITY.png"
 import "./projectsPage.css"
 
 function ProjectsPage(){
-    const {lenguage} = React.useContext(AppContext);
+    const {lenguage, currentSection} = React.useContext(AppContext);
 
     const projects = [
         {name: "Encriptador" , description: lenguage.projectsPage.prj1, imagen: imgONE, tags: ["JavaScript","CSS3", "HTML5", "Web"],
@@ -23,7 +23,7 @@ function ProjectsPage(){
     ]
 
     return(
-        <section className="projectsPage page" id={lenguage.navegator.item2}>
+        <section className={"projectsPage page "+ ((currentSection === lenguage.navegator.item2)? "visible":"")} id={lenguage.navegator.item2}>
             <div className="header">
                 <Titles className= "title"> {lenguage.projectsPage.title}</Titles>
             </div>
